@@ -29,8 +29,8 @@ public class Main_Method {
         int kodeMatkulLama = Integer.parseInt(inputKodeLama);
         String inputKodePengganti = JOptionPane.showInputDialog("Kode Pengganti");
         int kodeMatkulPengganti = Integer.parseInt(inputKodePengganti);
-        String isiLagi = JOptionPane.showInputDialog("Apakah Anda ingin "
-                + "memasukkan data lagi?(Y)Ya;(T)Tidak");
+//        String isiLagi = JOptionPane.showInputDialog("Apakah Anda ingin "
+//                + "memasukkan data lagi?(Y)Ya;(T)Tidak");
 
         Method.setSks(sks);
         Method.setKodeMatkul(kodeMatkul);
